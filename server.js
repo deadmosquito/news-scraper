@@ -30,13 +30,8 @@ app.use(express.static("public"));
 
 // Connect to the Mongo DB
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
-mongoose.set('debug', true);
-mongoose.connect(MONGODB_URI, { useNewUrlParser: true})
-.then(() => {
-  console.log("Mongoose is successfully connected")
-})
-.catch((err) => console.log(' Problem with mongodb! ' + err));
-mongoose.Promise = global.Promise;
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true});
+
 
 
 // Routes
