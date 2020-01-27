@@ -1,7 +1,37 @@
-# news-scraper
+# NASA News Scraper
+Check out the latest in science news directly from NASA's website.
 
-## Check out the latest in science news directly from NASA's website.
+## Getting Started
 
-### This app uses: JavaScript, jQuery, Node.js, and npm packages: Express, morgan, mongoose, axios, cheerio
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### https://nasa-news-scraper.herokuapp.com/ try it!
+### Prerequisites
+
+Clone repo.
+
+Run npm install.
+
+```
+npm install
+```
+
+## Deployment
+
+https://nasa-news-scraper.herokuapp.com/
+
+## Built With
+
+* Node.js
+* jQuery
+* Express
+* Heroku
+* morgan
+* mongoose
+* axios
+* cheerio
+
+
+## Authors
+
+* **Steven Sorensen** - *Initial work* - (https://github.com/deadmosquito)
+
