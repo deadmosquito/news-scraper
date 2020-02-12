@@ -18,6 +18,8 @@ npm install
 ## Deployment
 
 https://nasa-news-scraper.herokuapp.com/
+![Screenshot (7)](https://user-images.githubusercontent.com/51170844/74384466-28a47d80-4da6-11ea-984f-b7e8af06ce04.png)
+
 
 ## Built With
 
